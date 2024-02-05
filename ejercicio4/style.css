@@ -1,0 +1,7 @@
+.caja {
+    width: 30vw;
+    height: 30vh;
+    border-image: linear-gradient(25deg,green,yellow, red, blue)1;
+    border-image-width: 5px;
+    border-style: solid;
+}

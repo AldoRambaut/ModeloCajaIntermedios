@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor {
+    width: 500px;
+    height: 500px;
+    border: 3px solid red;
+    position: fixed;
+}
+
+#caja {
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    transition: border 0.3s ease;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}

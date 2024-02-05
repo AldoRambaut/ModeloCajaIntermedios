@@ -1,0 +1,8 @@
+.caja {
+    width: 30vw;
+    height: 30vh;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px 30px 45px 60px;
+}

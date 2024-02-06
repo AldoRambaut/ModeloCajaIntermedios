@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
-#borde {
+.borde {
     width: 300px;
     height: 300px;
-    border-width: 4px;
-    border-style: solid;
-    border-color: beige;
+    border:4px  solid red;
+    transition: 1s;
+}
+
+.borde:hover {
+    border-color: blue;
+    transition: 1s;
 }
